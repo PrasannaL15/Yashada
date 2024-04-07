@@ -54,7 +54,8 @@ a {
   text-decoration: none;
   transition: all 300ms linear 0s;
 }
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   outline: none;
 }
@@ -74,7 +75,12 @@ body.blog {
   background: #f1f9ff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   color: #222222;
@@ -203,7 +209,8 @@ button:focus {
 .header_area .navbar .nav .nav-item .nav-link:after {
   display: none;
 }
-.header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
+.header_area .navbar .nav .nav-item:hover .nav-link,
+.header_area .navbar .nav .nav-item.active .nav-link {
   color: #fbae20;
 }
 .header_area .navbar .nav .nav-item.submenu {
@@ -294,7 +301,9 @@ button:focus {
 .header_area .navbar .search i {
   font-weight: 600;
 }
-.header_area + section, .header_area + row, .header_area + div {
+.header_area + section,
+.header_area + row,
+.header_area + div {
   margin-top: 125px;
 }
 .header_area.navbar_fixed .main_menu {
@@ -408,7 +417,8 @@ button:focus {
   min-height: 780px;
 }
 .home_banner_area .banner_inner .bg-parallax {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../img/banner/home-banner.jpg) no-repeat scroll center center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+    url(../img/banner/home-banner.jpg) no-repeat scroll center center;
   background-size: cover;
   height: 110%;
   z-index: -1;
@@ -826,10 +836,16 @@ button:focus {
 .blog_right_sidebar .search_widget .input-group .form-control:-moz-placeholder {
   color: #fff;
 }
-.blog_right_sidebar .search_widget .input-group .form-control::-moz-placeholder {
+.blog_right_sidebar
+  .search_widget
+  .input-group
+  .form-control::-moz-placeholder {
   color: #fff;
 }
-.blog_right_sidebar .search_widget .input-group .form-control::-webkit-input-placeholder {
+.blog_right_sidebar
+  .search_widget
+  .input-group
+  .form-control::-webkit-input-placeholder {
   color: #fff;
 }
 .blog_right_sidebar .search_widget .input-group .form-control:focus {
@@ -960,7 +976,9 @@ button:focus {
 .blog_right_sidebar .newsletter_widget .form-control::-moz-placeholder {
   color: #cccccc;
 }
-.blog_right_sidebar .newsletter_widget .form-control::-webkit-input-placeholder {
+.blog_right_sidebar
+  .newsletter_widget
+  .form-control::-webkit-input-placeholder {
   color: #cccccc;
 }
 .blog_right_sidebar .newsletter_widget .form-control:focus {
@@ -2677,7 +2695,8 @@ h6 {
 }
 
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -2715,7 +2734,8 @@ h6 {
 }
 
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -2758,7 +2778,8 @@ h6 {
 }
 
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -2796,7 +2817,8 @@ h6 {
 }
 
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -2834,7 +2856,8 @@ h6 {
 }
 
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -2888,7 +2911,8 @@ h6 {
 }
 
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -3237,7 +3261,8 @@ h6 {
 .booking_area .col-lg-3 {
   padding: 30px 0;
 }
-.booking_area .col-lg-3:nth-child(3) .booking_item, .booking_area .col-lg-3:nth-child(4) .booking_item {
+.booking_area .col-lg-3:nth-child(3) .booking_item,
+.booking_area .col-lg-3:nth-child(4) .booking_item {
   border-right: 0;
 }
 .booking_area .coupon-code {
@@ -3248,8 +3273,8 @@ h6 {
   padding: 7px 40px;
   border-right: 1px solid #ddd;
 }
-.booking_item input[type=date]::-webkit-calendar-picker-indicator,
-.booking_item input[type=date]::-webkit-inner-spin-button {
+.booking_item input[type="date"]::-webkit-calendar-picker-indicator,
+.booking_item input[type="date"]::-webkit-inner-spin-button {
   display: none;
 }
 @media (max-width: 460px) {
@@ -3535,6 +3560,7 @@ h6 {
 
 .testi-slider {
   margin: auto;
+  height: 10rem;
   background: #93332c f;
 }
 .testi-slider .testi-item {
@@ -3608,7 +3634,8 @@ h6 {
 /*----------------------------------------------------*/
 .footer-area {
   min-height: 100%;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/footer-bg.jpg) no-repeat center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url(../img/footer-bg.jpg) no-repeat center;
   background-size: cover;
 }
 .footer-area h6 {

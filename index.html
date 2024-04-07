@@ -7,9 +7,13 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+  </head>
+
+  <body>
     <link rel="icon" href="img/favicon.png" type="image/png" />
     <title>Hotel Yashada</title>
     <!-- Bootstrap CSS -->
+
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link
       rel="stylesheet"
@@ -22,36 +26,14 @@
     <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
     <link rel="stylesheet" href="vendors/animate-css/animate.css" />
     <link rel="stylesheet" href="vendors/popup/magnific-popup.css" />
+
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-  </head>
 
-  <body>
     <!--================Header Menu Area =================-->
     <header class="header_area">
-      <div class="top_menu row m0">
-        <div class="container">
-          <div class="float-left">
-            <ul class="list header_social">
-              <li><a href="#">Contact Us +91 9834821292</a></li>
-            </ul>
-          </div>
-          <!-- <div class="float-right">
-            <select>
-              <option value="1">USD</option>
-              <option value="1">EUR</option>
-              <option value="1">AOA</option>
-              <option value="1">AUD</option>
-            </select>
-            <select>
-              <option value="1">ENG</option>
-              <option value="1">FRA</option>
-              <option value="1">BAN</option>
-            </select>
-          </div> -->
-        </div>
-      </div>
+      
       <div class="main_menu">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container">
@@ -87,7 +69,11 @@
                 <li class="nav-item">
                   <a class="nav-link" href="gallery.html">Gallery</a>
                 </li>
-                <li class="nav-item submenu dropdown">
+                <li class="nav-item">
+                  <a class="nav-link" href="rooms.html">Rooms</a>
+                </li>
+
+                <!-- <li class="nav-item submenu dropdown">
                   <a
                     href="#"
                     class="nav-link dropdown-toggle"
@@ -95,7 +81,7 @@
                     role="button"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    >Pages</a
+                    >Rooms</a
                   >
                   <ul class="dropdown-menu">
                     <li class="nav-item">
@@ -126,7 +112,7 @@
                       >
                     </li>
                   </ul>
-                </li>
+                </li> -->
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
@@ -169,7 +155,7 @@
     <!--================End Home Banner Area =================-->
 
     <!--================Booking Area =================-->
-    <section class="container">
+    <!-- <section class="container">
       <div class="booking_area">
         <form action="">
           <div class="row">
@@ -227,7 +213,7 @@
           </div>
         </form>
       </div>
-    </section>
+    </section> -->
     <!--================End Booking Area =================-->
 
     <!--================About Area =================-->
@@ -237,22 +223,24 @@
           <div class="col-lg-12">
             <div class="main_title">
               <div class="top-part">
-                <p>About Us Our History Mission & Vision</p>
+                <p>About Us</p>
               </div>
-              <h2>
-                About Us Our History <br />
-                Mission & Vision
-              </h2>
+              <h2>Yashada Vishramdham<br /></h2>
               <div class="bottom_part">
                 <p>
-                  inappropriate behavior is often laughed off as “boys will be
-                  boys,” women face higher conduct standards especially in the
-                  workplace. That’s why it’s crucial that, as women, our
-                  behavior on the job is beyond reproach. inappropriate behavior
-                  is often laughed.
+                  Hotel Yashada is a cozy and budget-friendly hotel close to
+                  Mahalaxmi Mandir. It's just 200 meters away, so you can easily
+                  walk there in about 2 minutes. If you're looking for a hotel
+                  near Mahalaxmi Mandir then this is the place for you
                 </p>
               </div>
-              <a href="#" class="main_btn mt-45">Request Custom Price</a>
+              <a
+                type="button"
+                data-toggle="modal"
+                data-target="#bookingModal"
+                class="book-modal main_btn mt-45" data-room-type="Deluxe A/c Room"
+                >Request Custom Price</a
+              >
             </div>
           </div>
         </div>
@@ -286,9 +274,11 @@
               <h2>Our Rooms</h2>
               <div class="bottom_part">
                 <p>
-                  We all live in an age that belongs to the young at heart. Life
-                  that is becoming extremely fast, day to day, also asks us to
-                  remain physically young. Young at heart,
+                  Yashada Vishramdham is great for families & groups, featuring
+                  AC and non-AC Rooms, 2 big Halls where everyone can hang out
+                  together. Plus, we've got all the modern stuff you need, like
+                  free Wi-Fi, a lift to help you get around easily, and parking
+                  for your car.
                 </p>
               </div>
             </div>
@@ -297,67 +287,98 @@
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="room_left">
-              <img class="img-fluid" src="img/room/r1.jpg" alt="" />
+              <img class="img-fluid" src="img/room/g3.jpg" alt="" />
             </div>
           </div>
           <div class="col-lg-6">
             <div class="owl-carousel owl-room">
               <div class="room_right">
                 <h1 class="price">
-                  <i class="fa fa-dollar"></i>250<span>/night</span>
+                  <i class="fa fa-rupee"></i>2500<span>/night</span>
                 </h1>
-                <h1 class="type">Double Deluxe Room</h1>
+                <h1 class="type">Deluxe A/c Room</h1>
                 <p>
-                  We all live in an age that belongs to the young at heart. Life
-                  that is becoming extremely fast, day to day, also asks us to
-                  remain physically young. Young at heart,
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio vitae repellat aliquid cum inventore! Saepe
+                  sapiente nemo expedita adipisci similique nam. Quibusdam
+                  consequuntur dolor ab reprehenderit nemo ipsa modi obcaecati.
                 </p>
                 <div class="row">
                   <div class="col-lg-6 col-md-5">
                     <ul>
                       <li>Air Condition</li>
                       <li>Car Parking</li>
-                      <li>Swimming Pool</li>
+                      <!-- <li>Swimming Pool</li> -->
                     </ul>
                   </div>
                   <div class="col-lg-6 col-md-5">
                     <ul>
                       <li>Restaurant & Bar</li>
-                      <li>Vehicle Rental</li>
+                      <!-- <li>Vehicle Rental</li> -->
                       <li>Complementary Meal</li>
                     </ul>
                   </div>
                 </div>
-                <a href="#" class="main_btn">Book Now</a>
+                <a href="#"  data-toggle="modal"
+                data-target="#bookingModal" data-room-type="Deluxe A/c Room" class="main_btn" >Book Now</a>
               </div>
-
               <div class="room_right">
                 <h1 class="price">
-                  <i class="fa fa-dollar"></i>250<span>/night</span>
+                  <i class="fa fa-dollar"></i>1500<span>/night</span>
                 </h1>
-                <h1 class="type">Double Deluxe Room</h1>
+                <h1 class="type">Standard Room</h1>
                 <p>
-                  We all live in an age that belongs to the young at heart. Life
-                  that is becoming extremely fast, day to day, also asks us to
-                  remain physically young. Young at heart,
+                  max occupancy 10 Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Laboriosam ab voluptatem officiis inventore
+                  laborum ex sit ullam eos quo eius!
                 </p>
                 <div class="row">
                   <div class="col-lg-6 col-md-5">
                     <ul>
                       <li>Air Condition</li>
                       <li>Car Parking</li>
-                      <li>Swimming Pool</li>
+                      <!-- <li>Swimming Pool</li> -->
                     </ul>
                   </div>
                   <div class="col-lg-6 col-md-5">
                     <ul>
                       <li>Restaurant & Bar</li>
-                      <li>Vehicle Rental</li>
+                      <!-- <li>Vehicle Rental</li> -->
                       <li>Complementary Meal</li>
                     </ul>
                   </div>
                 </div>
-                <a href="#" class="main_btn">Book Now</a>
+                <a href="#" data-toggle="modal"
+                data-target="#bookingModal" data-room-type="Standard Room" class="main_btn">Book Now</a>
+              </div>
+              <div class="room_right">
+                <h1 class="price">
+                  <i class="fa fa-rupee"></i>250<span>/person</span>
+                </h1>
+                <h1 class="type">Dormitory</h1>
+                <p>
+                  max occupancy 10 Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Laboriosam ab voluptatem officiis inventore
+                  laborum ex sit ullam eos quo eius!
+                </p>
+                <div class="row">
+                  <div class="col-lg-6 col-md-5">
+                    <ul>
+                      <li>Air Condition</li>
+                      <li>Car Parking</li>
+                      <!-- <li>Swimming Pool</li> -->
+                    </ul>
+                  </div>
+                  <div class="col-lg-6 col-md-5">
+                    <ul>
+                      <li>Restaurant & Bar</li>
+                      <!-- <li>Vehicle Rental</li> -->
+                      <li>Complementary Meal</li>
+                    </ul>
+                  </div>
+                </div>
+                <a href="#" data-toggle="modal"
+                data-target="#bookingModal" data-room-type="Dormitory" class="main_btn">Book Now</a>
               </div>
             </div>
           </div>
@@ -375,7 +396,7 @@
         <div class="testi-slider owl-carousel" data-slider-id="1">
           <div class="item">
             <div class="testi-item">
-              <h4>Fanny Spencer</h4>
+              <h4>Varatharajan</h4>
               <ul class="list">
                 <li>
                   <a href="#"><i class="fa fa-star"></i></a>
@@ -395,17 +416,17 @@
               </ul>
               <div class="wow fadeIn" data-wow-duration="1s">
                 <p>
-                  As conscious traveling Paup ers we must always be oncerned
-                  about our dear Mother Earth. If you think about it, you travel
-                  across her face <br />
-                  and She is the host to your journey.
+                  Room is located very near to the temple. Room and the building
+                  is clean. <br />
+                  Veg hotels are plenty in the surroundings. Overall excellent
+                  to the city where floating population is more.
                 </p>
               </div>
             </div>
           </div>
           <div class="item">
             <div class="testi-item">
-              <h4>Fanny Spencer</h4>
+              <h4>Gnana Venakata Rama</h4>
               <ul class="list">
                 <li>
                   <a href="#"><i class="fa fa-star"></i></a>
@@ -425,17 +446,20 @@
               </ul>
               <div class="wow fadeIn" data-wow-duration="1s">
                 <p>
-                  As conscious traveling Paup ers we must always be oncerned
-                  about our dear Mother Earth. If you think about it, you travel
-                  across her face <br />
-                  and She is the host to your journey.
+                  The room was good. <br />
+                  Advait ji (the host) is very responsive and cooperative.
+                  <br />
+                  Main asset of this place is, it's very nearer to the Mahalaxmi
+                  Devi temple, just at a walkable distance, this place is also
+                  surrounded by good food joints. <br />
+                  Overall a good and safe stay. <br />
                 </p>
               </div>
             </div>
           </div>
           <div class="item">
             <div class="testi-item">
-              <h4>Fanny Spencer</h4>
+              <h4>Sriram</h4>
               <ul class="list">
                 <li>
                   <a href="#"><i class="fa fa-star"></i></a>
@@ -455,10 +479,14 @@
               </ul>
               <div class="wow fadeIn" data-wow-duration="1s">
                 <p>
-                  As conscious traveling Paup ers we must always be oncerned
-                  about our dear Mother Earth. If you think about it, you travel
-                  across her face <br />
-                  and She is the host to your journey.
+                  Mr. Advait and Mr. Kulkarni were courteous during my stay at
+                  Yashda Vishram dham property. <br />
+                  The room was neat and tidy and had everything one could ask
+                  for. <br />
+                  The staff were also very helpful and cooperative. <br />
+                  In short I would say, my stay was 'value for money' and thanks
+                  once again for being such an excellent host and looking
+                  forward to coming to Kolhapur again. <br />
                 </p>
               </div>
             </div>
@@ -466,7 +494,7 @@
           <div class="item">
             <div class="testi-item">
               <!-- <img src="img/quote.png" alt="" /> -->
-              <h4>Fanny Spencer</h4>
+              <h4>Gautam</h4>
               <ul class="list">
                 <li>
                   <a href="#"><i class="fa fa-star"></i></a>
@@ -486,10 +514,16 @@
               </ul>
               <div class="wow fadeIn" data-wow-duration="1s">
                 <p>
-                  As conscious traveling Paup ers we must always be oncerned
-                  about our dear Mother Earth. If you think about it, you travel
-                  across her face <br />
-                  and She is the host to your journey.
+                  The advantage of this place is that it is in the heart of
+                  Kolhapur city and very nearby to the Mahalakshmi mandir.
+                  <br />
+                  The host was very responsive to all the questions I had for
+                  the place for extra things I asked for and also for visiting
+                  places nearby. <br />
+                  Though I must say that the room cleaning needs an improvement
+                  as well as if they can provide an uninterrupted WiFi facility
+                  which is a basic requirement these days, will help in long
+                  way.
                 </p>
               </div>
             </div>
@@ -499,27 +533,27 @@
           class="owl-thumbs d-flex justify-content-center"
           data-slider-id="1"
         >
-          <div class="owl-thumb-item">
+          <div class="owl-thumb-item testimonial-img">
             <div>
-              <img class="img-fluid" src="img/testimonial/t1.png" alt="" />
+              <img class="img-fluid" src="img/testimonial/1.webp" alt="" />
             </div>
             <div class="overlay overlay-grad"></div>
           </div>
-          <div class="owl-thumb-item">
+          <div class="owl-thumb-item testimonial-img">
             <div>
-              <img class="img-fluid" src="img/testimonial/t2.png" alt="" />
+              <img class="img-fluid" src="img/testimonial/2.webp" alt="" />
             </div>
             <div class="overlay overlay-grad"></div>
           </div>
-          <div class="owl-thumb-item">
+          <div class="owl-thumb-item testimonial-img">
             <div>
-              <img class="img-fluid" src="img/testimonial/t3.png" alt="" />
+              <img class="img-fluid" src="img/testimonial/3.webp" alt="" />
             </div>
             <div class="overlay overlay-grad"></div>
           </div>
-          <div class="owl-thumb-item">
+          <div class="owl-thumb-item testimonial-img">
             <div>
-              <img class="img-fluid" src="img/testimonial/t4.png" alt="" />
+              <img class="img-fluid" src="img/testimonial/4.jpg" alt="" />
             </div>
             <div class="overlay overlay-grad"></div>
           </div>
@@ -539,7 +573,7 @@
               <p>
                 nappropriate behavior is often laughed off as “boys will be
                 boys,” women face higher conduct standards especially in the
-                workplace. That’s why it’s crucial that, as women, our behavior
+                workplace. <br> That’s why it’s crucial that, as women, our behavior
                 on the job is beyond reproach. inappropriate behavior is often
                 laughed.
               </p>
@@ -635,126 +669,31 @@
     <!--================End Latest Blog Area =================-->
 
     <!--================ start footer Area  =================-->
-    <footer class="footer-area section_gap">
+   
+    <footer class="footer-area footer_gap">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h6>About Agency</h6>
-              <p>
-                The world has become so fasted that people don’t want to standby
-                reading page of info they would much rather look at a
-                presentation and understand message.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h6>Quick Links</h6>
-              <div class="row">
-                <ul class="col footer-nav">
-                  <li><a href="#">Sitemaps</a></li>
-                  <li><a href="#">Categories</a></li>
-                  <li><a href="#">Archives</a></li>
-                  <li><a href="#">Advertise</a></li>
-                  <li><a href="#">Ad Choice</a></li>
-                </ul>
-                <ul class="col footer-nav">
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Terms of Use</a></li>
-                  <li><a href="#">Help Center</a></li>
-                  <li><a href="#">Newsletters</a></li>
-                  <li><a href="#">Feedback</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h6>Newsletter</h6>
-              <p>
-                For business professionals caught between high OEM price
-                mediocre print and graphic.
-              </p>
-              <div class="" id="mc_embed_signup">
-                <form
-                  target="_blank"
-                  novalidate="true"
-                  action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                  method="get"
-                  class="form-inline"
-                >
-                  <div class="d-flex flex-row">
-                    <input
-                      class="form-control"
-                      name="EMAIL"
-                      placeholder="Enter Email"
-                      onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Enter Email '"
-                      required=""
-                      type="email"
-                    />
-
-                    <button class="click-btn btn btn-default">
-                      <i class="lnr lnr-location" aria-hidden="true"></i>
-                    </button>
-                    <div style="position: absolute; left: -5000px">
-                      <input
-                        name="b_36c4fd991d266f23781ded980_aefe40901a"
-                        tabindex="-1"
-                        value=""
-                        type="text"
-                      />
-                    </div>
-
-                    <!-- <div class="col-lg-4 col-md-4">
-										<button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
-									</div>  -->
-                  </div>
-                  <div class="info"></div>
-                </form>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="single-footer-widget mail-chimp">
-              <h6 class="mb-20">Instafeed</h6>
-              <ul class="instafeed d-flex flex-wrap">
-                <li><img src="img/instagram/Image-01.jpg" alt="" /></li>
-                <li><img src="img/instagram/Image-02.jpg" alt="" /></li>
-                <li><img src="img/instagram/Image-03.jpg" alt="" /></li>
-                <li><img src="img/instagram/Image-04.jpg" alt="" /></li>
-                <li><img src="img/instagram/Image-05.jpg" alt="" /></li>
-                <li><img src="img/instagram/Image-06.jpg" alt="" /></li>
-                <li><img src="img/instagram/Image-07.jpg" alt="" /></li>
-                <li><img src="img/instagram/Image-08.jpg" alt="" /></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div
-          class="footer-bottom d-flex justify-content-between align-items-center flex-wrap"
+      <div
+          class=" d-flex justify-content-center align-items-center flex-wrap"
         >
-          <div>
+     
             <p class="footer-text m-0">
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               Copyright &copy;
               <script>
                 document.write(new Date().getFullYear());
               </script>
-              All rights reserved | This template is made with
+              All rights reserved | Website developed & Mangaged  
               <i class="fa fa-heart-o" aria-hidden="true"></i> by
-              <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              <a href="https://colorlib.com" target="_blank">TVASP SOLUTIONS PVT. LTD.</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
-          </div>
-          <div class="footer-social d-flex align-items-center">
+      
+          <!-- <div class="footer-social d-flex align-items-center">
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-dribbble"></i></a>
             <a href="#"><i class="fa fa-behance"></i></a>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>
@@ -780,5 +719,125 @@
     <script src="vendors/counter-up/jquery.counterup.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="js/theme.js"></script>
+    <script src="js/contact.js"></script>
+    <div
+      class="modal fade"
+      id="bookingModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="bookingModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3
+              class="modal-title"
+              id="bookingModalLabel"
+              style="color: #fbae20; font-family: Roboto, sans-serif"
+            >
+              Make Your Reservation!
+            </h3>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <section class="contact-section contact_area">
+              <div class="container">
+                <div
+                  class=""
+                  style="justify-content: center; align-items: center"
+                >
+                  <div class="">
+                    <form onsubmit="whatsAppBooking();return false">
+                      <div class="booking-part">
+                        <p></p>
+
+                        <div class="checking-block">
+                          <div style="width: 100%">
+                            Date of Arrival:
+                            <input
+                              class="single-input"
+                              required
+                              id="dateSelect"
+                              type="date"
+                            />
+                          </div>
+                          <div style="width: 100%">
+                            Adults:
+
+                            <div class="control">
+                              <input
+                                required
+                                id="adults"
+                                class="single-input"
+                                type="text"
+                                placeholder="No. of Adults"
+                              />
+                            </div>
+                          </div>
+                          <div style="width: 100%">
+                            Kids:
+
+                            <div class="control">
+                              <input
+                                required
+                                id="kids"
+                                class="single-input"
+                                type="text"
+                                placeholder="No. of Kids"
+                              />
+                            </div>
+                          </div>
+
+                          <div style="width: 100%">
+                            Room Type:
+                            <div class="form-select room-type" >
+                            <select
+                              required
+                              id="roomType"
+                              class="nice-select"
+                              style="width: 100%"
+                            >
+                              <option value="Deluxe A/c Room">
+                                Deluxe A/c Room
+                              </option>
+                              <option value="Standard Room">Standard Room</option>
+                              <option value="Dormitory">Dormitory</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <input
+                          id="bookingSubmitbtn"
+                          type="button"
+                          value="Enquire on WhatsApp"
+                          class="genric-btn primary"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

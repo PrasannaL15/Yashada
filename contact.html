@@ -30,28 +30,7 @@
   <body>
     <!--================Header Menu Area =================-->
     <header class="header_area">
-      <div class="top_menu row m0">
-        <div class="container">
-          <div class="float-left">
-            <ul class="list header_social">
-              <li><a href="#">Contact Us +44 (012) 5689 3264</a></li>
-            </ul>
-          </div>
-          <div class="float-right">
-            <select>
-              <option value="1">USD</option>
-              <option value="1">EUR</option>
-              <option value="1">AOA</option>
-              <option value="1">AUD</option>
-            </select>
-            <select>
-              <option value="1">ENG</option>
-              <option value="1">FRA</option>
-              <option value="1">BAN</option>
-            </select>
-          </div>
-        </div>
-      </div>
+   
       <div class="main_menu">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container">
@@ -78,7 +57,7 @@
               id="navbarSupportedContent"
             >
               <ul class="nav navbar-nav menu_nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
@@ -87,47 +66,51 @@
                 <li class="nav-item">
                   <a class="nav-link" href="gallery.html">Gallery</a>
                 </li>
-                <li class="nav-item submenu dropdown">
-                  <a
-                    href="#"
-                    class="nav-link dropdown-toggle"
-                    data-toggle="dropdown"
-                    role="button"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    >Pages</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <a class="nav-link" href="elements.html">Elements</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="rooms.html">Rooms</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item submenu dropdown">
-                  <a
-                    href="#"
-                    class="nav-link dropdown-toggle"
-                    data-toggle="dropdown"
-                    role="button"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    >Blog</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="single-blog.html"
-                        >Blog Details</a
-                      >
-                    </li>
-                  </ul>
-                </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="rooms.html">Rooms</a>
+                </li>
+
+                <!-- <li class="nav-item submenu dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Rooms</a
+                >
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="elements.html">Elements</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="rooms.html">Rooms</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item submenu dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Blog</a
+                >
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="single-blog.html"
+                      >Blog Details</a
+                    >
+                  </li>
+                </ul>
+              </li> -->
+                <li class="nav-item active">
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
               </ul>
@@ -161,24 +144,56 @@
     <!--================End Home Banner Area =================-->
 
     <!--================Contact Area =================-->
-    <section class="contact_area section_gap">
+    <section class="contact-section contact_area section_gap">
       <div class="container">
-        <div
-          id="mapBox"
-          class="mapBox"
-          style="width: 100%; height: 420px"
-        ></div>
-        <div class="row">
+        <div class="mapBox">
+          <iframe
+            class="mapBox"
+            style="width: 100%; height: 420px"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.322420365972!2d74.22066070458915!3d16.695556961956424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1000a552d2535%3A0x8f10a787d1f7bf71!2sYashada%20Vishramdham!5e0!3m2!1sen!2sus!4v1712450531295!5m2!1sen!2sus"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="row" style="justify-content: center; align-items: center">
           <div class="col-lg-3">
             <div class="contact_info">
               <div class="info_item">
                 <i class="lnr lnr-home"></i>
-                <h6>California, United States</h6>
-                <p>Santa monica bullevard</p>
+                <h6>
+                  3192, A Ward, Kanerkar Marg, Babujamal, near Shree Mahalaxmi -
+                  Ambabai Temple,
+                </h6>
+                <p>Kolhapur, Kolhapur, Maharashtra</p>
               </div>
               <div class="info_item">
                 <i class="lnr lnr-phone-handset"></i>
-                <h6><a href="#">00 (440) 9865 562</a></h6>
+                <h6>
+                  <span style="font-style: normal; font-weight: normal"
+                    >Phone 1:</span
+                  >
+                  <a href="tel:+919405684176">+91 9405684176</a>
+                </h6>
+                <h6>
+                  <span style="font-style: normal; font-weight: normal"
+                    >Phone 1:</span
+                  >
+                  <a href="tel:+919834069861">+91 9834069861</a>
+                </h6>
+                <h6>
+                  <span style="font-style: normal; font-weight: normal"
+                    >Phone 1:</span
+                  >
+                  <a href="tel:+918830697665">+91 8830697665</a>
+                </h6>
+                <h6>
+                  <span style="font-style: normal; font-weight: normal">
+                    Landline :
+                  </span>
+                  <a href="tel:02312541684">02312541684</a>
+                </h6>
                 <p>Mon to Fri 9am to 6 pm</p>
               </div>
               <div class="info_item">
@@ -189,57 +204,71 @@
             </div>
           </div>
           <div class="col-lg-9">
-            <form
-              class="row contact_form"
-              action="contact_process.php"
-              method="post"
-              id="contactForm"
-              novalidate="novalidate"
-            >
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    name="name"
-                    placeholder="Enter your name"
-                  />
+            <form onsubmit="whatsAppBooking();return false">
+              <div class="booking-part">
+                <p>Make Your Reservation!</p>
+
+                <div class="checking-block">
+                  <div style="width: 100%">
+                    Date of Arrival:
+                    <input
+                      class="single-input"
+                      required
+                      id="dateSelect"
+                      type="date"
+                    />
+                  </div>
+                  <div style="width: 100%">
+                    Adults:
+
+                    <div class="control">
+                      <input
+                        required
+                        id="adults"
+                        class="single-input"
+                        type="text"
+                        placeholder="No. of Adults"
+                      />
+                    </div>
+                  </div>
+                  <div style="width: 100%">
+                    Kids:
+
+                    <div class="control">
+                      <input
+                        required
+                        id="kids"
+                        class="single-input"
+                        type="text"
+                        placeholder="No. of Kids"
+                      />
+                    </div>
+                  </div>
+                  <div style="width: 100%">
+                    Room Type:
+                    <div class="form-select"id="roomType">
+                    <select
+                      required
+                  
+                      class="nice-select"
+                      style="width: 100%"
+                    >
+                      <option value="Deluxe A/c Room">
+                        Deluxe A/c Room
+                      </option>
+                      <option value="Standard Room">Standard Room</option>
+                      <option value="Dormitory">Dormitory</option>
+                    </select>
+                  </div>
+            
                 </div>
-                <div class="form-group">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    name="email"
-                    placeholder="Enter email address"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="subject"
-                    name="subject"
-                    placeholder="Enter Subject"
-                  />
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    id="message"
-                    rows="1"
-                    placeholder="Enter Message"
-                  ></textarea>
-                </div>
-              </div>
-              <div class="col-md-12 text-right">
-                <button type="submit" value="submit" class="submit_btn">
-                  Send Message
-                </button>
+
+                <input
+                  id="bookingSubmitbtn"
+                  type="button"
+                  value="Enquire on WhatsApp"
+                  class="genric-btn primary"
+                />
               </div>
             </form>
           </div>
@@ -249,126 +278,30 @@
     <!--================Contact Area =================-->
 
     <!--================ start footer Area  =================-->
-    <footer class="footer-area section_gap">
+    <footer class="footer-area footer_gap">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h6>About Agency</h6>
-              <p>
-                The world has become so fasted that people don’t want to standby
-                reading page of info they would much rather look at a
-                presentation and understand message.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h6>Quick Links</h6>
-              <div class="row">
-                <ul class="col footer-nav">
-                  <li><a href="#">Sitemaps</a></li>
-                  <li><a href="#">Categories</a></li>
-                  <li><a href="#">Archives</a></li>
-                  <li><a href="#">Advertise</a></li>
-                  <li><a href="#">Ad Choice</a></li>
-                </ul>
-                <ul class="col footer-nav">
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Terms of Use</a></li>
-                  <li><a href="#">Help Center</a></li>
-                  <li><a href="#">Newsletters</a></li>
-                  <li><a href="#">Feedback</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h6>Newsletter</h6>
-              <p>
-                For business professionals caught between high OEM price
-                mediocre print and graphic.
-              </p>
-              <div class="" id="mc_embed_signup">
-                <form
-                  target="_blank"
-                  novalidate="true"
-                  action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                  method="get"
-                  class="form-inline"
-                >
-                  <div class="d-flex flex-row">
-                    <input
-                      class="form-control"
-                      name="EMAIL"
-                      placeholder="Enter Email"
-                      onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Enter Email '"
-                      required=""
-                      type="email"
-                    />
-
-                    <button class="click-btn btn btn-default">
-                      <i class="lnr lnr-location" aria-hidden="true"></i>
-                    </button>
-                    <div style="position: absolute; left: -5000px">
-                      <input
-                        name="b_36c4fd991d266f23781ded980_aefe40901a"
-                        tabindex="-1"
-                        value=""
-                        type="text"
-                      />
-                    </div>
-
-                    <!-- <div class="col-lg-4 col-md-4">
-                                            <button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
-                                        </div>  -->
-                  </div>
-                  <div class="info"></div>
-                </form>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="single-footer-widget mail-chimp">
-              <h6 class="mb-20">Instafeed</h6>
-              <ul class="instafeed d-flex flex-wrap">
-                <li><img src="img/instagram/Image-01.jpg" alt="" /></li>
-                <li><img src="img/instagram/Image-02.jpg" alt="" /></li>
-                <li><img src="img/instagram/Image-03.jpg" alt="" /></li>
-                <li><img src="img/instagram/Image-04.jpg" alt="" /></li>
-                <li><img src="img/instagram/Image-05.jpg" alt="" /></li>
-                <li><img src="img/instagram/Image-06.jpg" alt="" /></li>
-                <li><img src="img/instagram/Image-07.jpg" alt="" /></li>
-                <li><img src="img/instagram/Image-08.jpg" alt="" /></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div
-          class="footer-bottom d-flex justify-content-between align-items-center flex-wrap"
+      <div
+          class=" d-flex justify-content-center align-items-center flex-wrap"
         >
-          <div>
+     
             <p class="footer-text m-0">
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               Copyright &copy;
               <script>
                 document.write(new Date().getFullYear());
               </script>
-              All rights reserved | This template is made with
+              All rights reserved | Website developed & Mangaged  
               <i class="fa fa-heart-o" aria-hidden="true"></i> by
-              <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              <a href="https://colorlib.com" target="_blank">TVASP SOLUTIONS PVT. LTD.</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
-          </div>
-          <div class="footer-social d-flex align-items-center">
+      
+          <!-- <div class="footer-social d-flex align-items-center">
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-dribbble"></i></a>
             <a href="#"><i class="fa fa-behance"></i></a>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>
@@ -394,5 +327,6 @@
     <script src="vendors/counter-up/jquery.counterup.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="js/theme.js"></script>
+    <script src="js/contact.js"></script>
   </body>
 </html>

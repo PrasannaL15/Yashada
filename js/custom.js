@@ -298,3 +298,40 @@
     });
   }
 })(jQuery);
+
+function whatsAppBooking() {
+  //Preventing page refresh
+
+  console.log($("#dateSelect").val());
+
+  var adults = $("#adults").val();
+  // var kids = $("#kids").val();
+  // var rooms = $("#rooms").val();
+
+  if (
+    $("#dateSelect").val() == "" ||
+    adults == ""
+    // kids == "" ||
+    // rooms == ""
+  ) {
+    alert("Please Enter All The Details To Enquire");
+  } else if (isNaN(adults)) {
+    alert("Adults should be a number. Please enter correct values");
+  } else {
+    messagetext =
+      `Hey...
+
+I am Intrested in booking Villa *@ Yashada Vishramdham*!
+
+*Dates* - ` +
+      $("#dateSelect").val() +
+      `
+*Adults* -` +
+      adults +
+      ``;
+
+    isFormCompleted = true;
+    htmlLink = "https://wa.me/919834069861?text=" + encodeURI(messagetext) + "";
+    window.open(htmlLink, (target = "_blank"));
+  }
+}
