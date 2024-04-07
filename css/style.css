@@ -4236,9 +4236,6 @@ h6 {
   z-index: 1000000000;
 }
 
-#bookingModal .modal-body {
-  /* min-height: 50vh; */
-}
 .footer_gap {
   /* margin-top: 10rem; */
   padding: 2rem;
