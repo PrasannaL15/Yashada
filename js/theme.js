@@ -117,15 +117,17 @@
         loop: true,
         margin: 30,
         items: 1,
-        nav: false,
-        autoplay: false,
-        smartSpeed: 1500,
+        // nav: true,
+        autoplay: true,
+        smartSpeed: 700,
         dots: true,
-        //				navContainer: '.testimonials_area',
-        //                navText: ['<i class="lnr lnr-arrow-up"></i>','<i class="lnr lnr-arrow-down"></i>'],
         responsiveClass: true,
         thumbs: true,
         thumbsPrerendered: true,
+        // navText: [
+        //   "<span class='lnr lnr-arrow-up'></span>",
+        //   "<span class='lnr lnr-arrow-down'></span>",
+        // ],
       });
     }
   }

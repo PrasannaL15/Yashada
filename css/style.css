@@ -116,10 +116,15 @@ button:focus {
 .section_gap_top {
   padding-top: 150px;
 }
-
+.section_gap_top2 {
+  padding-top: 80px;
+}
 @media (max-width: 991px) {
   .section_gap_top {
     padding-top: 70px;
+  }
+  .section_gap_top2 {
+    padding-top: 40px;
   }
 }
 .mt-25 {
@@ -3809,7 +3814,7 @@ h6 {
 }
 
 .testimonials-area .owl-thumbs {
-  margin-top: -50px;
+  margin-top: -20px;
   position: relative;
   z-index: 2;
 }
